@@ -8,7 +8,7 @@
 }
 
 .intro {
-    background-image: url("/hero.jpg");
+    background-image: url("hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@
 
 @media(max-width: 768px) {
     .intro {
-        background-image: url("/hero-1.jpg");
+        background-image: url("hero-1.jpg");
         background-position: center;
     }
 }
@@ -71,7 +71,6 @@
 
 .info p {
     z-index: 4;
-    /* color: #f8af27; */
     font-weight: bolder;
     text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 85), 0 0 0.2em rgb(255, 68, 0);
     font-size: 2.4rem;
@@ -90,7 +89,7 @@ span {
 }
 
 .cumple {
-    background-image: url("/hero-2.jpg");
+    background-image: url("hero-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -101,7 +100,7 @@ span {
 
 @media(max-width: 768px) {
     .cumple {
-        background-image: url("/hero-2.jpg");
+        background-image: url("hero-2.jpg");
     }
 }
 
